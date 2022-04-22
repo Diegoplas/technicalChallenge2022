@@ -50,7 +50,6 @@ func GetCard() (value int, suit string, err error) {
 	}
 	cardValue := card.Card[0].Value
 	cardSuit := card.Card[0].Suit
-	fmt.Println("looking val", cardValue)
 	value = ConvertCardValueToInt(cardValue)
 	return value, cardSuit, nil
 }

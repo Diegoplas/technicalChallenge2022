@@ -1,8 +1,7 @@
 package model
 
 type DrawCard struct {
-	Success bool   `json:"success"`
-	Card    []Card `json:"cards"`
+	Card []Card `json:"cards"`
 }
 
 type Card struct {

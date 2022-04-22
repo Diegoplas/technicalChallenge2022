@@ -1,6 +1,6 @@
 ### Requirements
 
-* Go 1.15 Or higher
+* Go 1.17
 
 ### Framework
 
